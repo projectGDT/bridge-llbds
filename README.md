@@ -1,29 +1,22 @@
-# LiteLoaderBDS C++ Plugin Template
+<!-- common contents -->
 
-The template repository for LiteLoaderBDS C++ plugin development.
+<div align="center">
+    <img width="160" src="logo.svg" alt="logo"><br/>
+    projectGDT - for a more connected Minecraft world!<br/>
+    QQ Group:
+    <a href="https://qm.qq.com/cgi-bin/qm/qr?k=jNFTovEpc0WDFtbSbUMrbQ0NyUgDpnCu&jump_from=webapi&authKey=6oBQQeoeB6gA7+AljJK7AV1IUEjkk/HpkvxrBNgAQtpxPtw230h4GQrp56nTw81I">
+        162779544
+    </a>
+</div>
 
-## Usage
+---
 
-* Write and build your plugin
+# llplguin
 
-  Please refer to [LiteLoaderBDS C++ Plugin Development Documentation](https://cpp.docs.litebds.com/en/) or [LiteLoaderBDS C++ 插件开发文档](https://cpp.docs.litebds.com/zh-Hans/).
+(正式名称: **GDT-Bridge-LL**)
 
-* Edit README.md and LICENSE
+projectGDT 的子项目之一。
 
-  You ought not to keep the original README.md, for it contains instructions on how to build your own plugin, which might not fit your plugin repository. The README.md of your repository should contain instructions on how to build, install and use your plugin.
+服务端插件的 LiteLoaderBDS 实现，与中心服务器通讯，进行向云端请求白名单等操作。
 
-  You don't necessarily want your repository to be open sourced under the Unlicense, so please choose your own license in place of the `LICENSE` file.
-
-## For Beta Developers
-
-If you would like to experience the latest features for plugins in beta versions of LiteLoaderBDS, you can switch the branch of the SDK to beta. Run the commands below under the plugin repository:
-
-```sh
-git submodule set-branch --branch beta SDK
-git submodule update --init --remote
-```
-
-## License
-
-This repository is open source under the Unlicense.
-Please refer to [the license file](LICENSE) for further information.
+插件是完全开源的。为确保安全，仅保留了有限的操作玩家数据的接口。远程执行命令的功能将不予实现。
